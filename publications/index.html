@@ -106,36 +106,16 @@ pre{
 }
 </style>
 
+<div class="text-justify"><span id="MSR06">G Recupito, &amp; G. Giordano, &amp; Filomena Ferrucci, &amp; Dario Di Nucci, &amp; Fabio Palomba <br><i>When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems</i> 
+    <br> Mining Software Repositories (MSR) </span></div>
 
-<div class="text-justify"><span id="feynman06">G. Giordano, &amp; G. Festa, &amp; G. Catolino, &amp; F.Palomba, &amp; F. Ferrucci, &amp; C. Gravino <br><i>On the Adoption and Effects of Source Code Reuse on Defect Proneness and Maintenance Effort</i> 
-   <br> Empirical Software Engineering (EMSE)</span></div>
+<a href="../papers/C6.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractMSR06()">ABSTRACT</button>
+<div id="bMSR06" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+    <pre>Context. The adoption of Machine Learning (ML)–enabled systems is steadily increasing. Nevertheless, there is a shortage of ML-specific quality assurance approaches, possibly because of the limited knowledge of how quality-related concerns emerge and evolve in ML-enabled systems. Objective. We aim to investigate the emergence and evolution of specific types of quality-related concerns known as ML-specific code smells, i.e., sub-optimal implementation solutions applied on ML pipelines that may significantly decrease both quality and maintainability of ML-enabled systems. More specifically, we present a plan to study ML-specific code smells by empirically analyzing (i) their prevalence in real ML-enabled systems, (ii) how they are introduced and removed, and (iii) their survivability. Method. We will conduct an exploratory study, mining a large dataset of ML-enabled systems and analyzing over 400k commits about 337 projects. We will track and inspect the introduction and evolution of ML smells through CodeSmile, a novel ML smell detector that we will build to enable our investigation and to detect ML-specific code smells.</pre>
+    </div>
 
-<!-- You can use the below to make your name bold -->
-<!-- <span id="feynman06">Feynman, R. P., &amp; Cline, J. M. <i>Feynman lectures on the strong interations</i>. arXiv:2006.08594.</span></div> -->
-
-
-
-
-
-<a href="../papers/J3.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
-
-
-
-
-<!--<a href="https://arxiv.org/abs/2006.08594" target="_blank"><button class="btn btn-primary btm-sm">ARXIV</button></a>-->
-
-
-
-
-<!--<button class="btn btn-danger btm-sm" onclick="toggleBibtexfeynman06()">BIB</button>-->
-
-
-
-<button class="btn btn-warning btm-sm" onclick="toggleAbstractfeynman06()">ABSTRACT</button>
-
-
-
-<div id="afeynman06" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="afMSR06" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@unpublished{feynman06,
   author = {Feynman, R. P. and Cline, J. M.},
   title = {Feynman lectures on the strong interations},
@@ -145,23 +125,9 @@ pre{
 }
 </pre>
 </div>
-
-
-<div id="bfeynman06" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>Software reusability mechanisms, like inheritance and delegation in Object-Oriented programming, are widely recognized as key instruments of software design that reduce the risks of source code being affected by defects, other than to reduce the effort required to maintain and evolve source code. Previous work has traditionally employed source code reuse metrics for prediction purposes, e.g., in the context of defect prediction. However, our research identifies two noticeable limitations of the current literature. First, still little is known about the extent to which developers actually employ code reuse mechanisms over time. Second, it is still unclear how these mechanisms may contribute to explaining defect-proneness and maintenance effort during software evolution. We aim at bridging this gap of knowledge, as an improved understanding of these aspects might provide insights into the actual support provided by these mechanisms, e.g., by suggesting whether and how to use them for prediction purposes. We propose an exploratory study, conducted on 12 Java projects—over 44,900 commits—of the Defects4J dataset, aiming at (1) assessing how developers use inheritance and delegation during software evolution; and (2) statistically analyzing the impact of inheritance and delegation on fault proneness and maintenance effort. Our results let emerge various usage patterns that describe the way inheritance and delegation vary over time. In addition, we find out that inheritance and delegation are statistically significant factors that influence both source code defect-proneness and maintenance effort.</pre>
-</div>
-
 <script>
-function toggleBibtexfeynman06(parameter) {
-    var x= document.getElementById('afeynman06');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractfeynman06(parameter) {
-    var x= document.getElementById('bfeynman06');
+function toggleAbstractMSR06(parameter) {
+    var x= document.getElementById('bMSR06');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -169,12 +135,11 @@ function toggleAbstractfeynman06(parameter) {
     }
 }
 </script>
-</li></ol>
 </div>
 
 <div class="jumbotron">
   <h3 id="refereed-journal-articles">International Journals</h3>
-  <ol class="bibliography" reversed="reversed"><li><style>
+  <ol class="bibliography" reversed="reversed"><style>
 .btn{
     margin-bottom:5px;
     padding-top:0px;
@@ -192,92 +157,100 @@ pre{
     width:100%; overflow-x:auto;
 }
 </style>
-
-
-<div class="text-justify"><span id="feynman1939forces">A. Amato, &amp;...  &amp; G. Giordano,  &amp; ... &amp;<br>  <i>QuantuMoonLight: A Low-Code Platform to Experiment with Quantum Machine Learning</i><br>Software X</span></div>
-
-<!-- You can use the below to make your name bold -->
-
-
-<a href="../papers/J2.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
-
-
-
-
-<!--<a href="http://doi.org/10.1103/PhysRev.56.340" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>-->
-
-
-
-
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexfeynman1939forces()">BIB</button>
-
-
-
-<button class="btn btn-warning btm-sm" onclick="toggleAbstractfeynman1939forces()">ABSTRACT</button>
-
-
-
-<div id="afeynman1939forces" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>@article{amato2023quantumoonlight,
-    title={QuantuMoonLight: A low-code platform to experiment with quantum machine learning},
-    author={Amato, Francesco and Cicalese, Matteo and Contrasto, Luca and Cubicciotti, Giacomo and D’Ambola, Gerardo and La Marca, Antonio and Pagano, Giuseppe and Tomeo, Fiorentino and Robertazzi, Gennaro Alessio and Vassallo, Gabriele and others},
-    journal={SoftwareX},
-    volume={22},
-    pages={101399},
-    year={2023},
-    publisher={Elsevier}
-  }  
-</pre>
-</div>
-
-
-<div id="bfeynman1939forces" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>Nowadays, machine learning is being used to address multiple problems in various research fields, with software engineering researchers being among the most active users of machine learning mechanisms. Recent advances revolve around the use of quantum machine learning, which promises to revolutionize program computation and boost software systems’ problem-solving capabilities. However, using quantum computing technologies is not trivial and requires interdisciplinary skills and expertise. For such a reason, we propose QuantuMoonLight, a community-based low-code platform that allows researchers and practitioners to configure and experiment with quantum machine learning pipelines, compare them with classic machine learning algorithms, and share lessons learned and experience reports. We showcase the architecture and main features of QuantuMoonLight, other than discussing its envisioned impact on research and practice.</pre>
-</div>
-
-<script>
-function toggleBibtexfeynman1939forces(parameter) {
-    var x= document.getElementById('afeynman1939forces');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractfeynman1939forces(parameter) {
-    var x= document.getElementById('bfeynman1939forces');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-
-</li>
-<li><div class="text-justify"><span id="fgiordanoArtificial">G. Giordano &amp; F. Palomba  &amp; F. Ferrucci<br>  <i>On the Use of Artificial Intelligence to Deal with Privacy in IoT Systems: A Systematic Literature Review</i><br>Journal of Systems and Software</span></div>
-
-    <!-- You can use the below to make your name bold -->
-    
-    
-    <a href="../papers/J1.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
-    
-    
-    
-    
+<!-- EMSE-->
+<li><div class="text-justify"><span id="fEMSE23">Giammaria Giordano, &amp; Gerardo Festa, &amp; Gemma Catolino, &amp; Fabio Palomba, &amp; Filomena Ferrucci, &amp; Carmine Gravino<br>  <i>On the Adoption and Effects of Source Code Reuse on Defect Proneness and Maintenance Effort</i><br>Empirical Software Engineering (EMSE)</span></div>
+    <a href="../papers/J3.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
     <!--<a href="http://doi.org/10.1103/PhysRev.56.340" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>-->
-    
-    
-    
-    
+    <button class="btn btn-danger btm-sm" onclick="toggleBibtexEMSE23()">BIB</button>
+    <button class="btn btn-warning btm-sm" onclick="toggleAbstractEMSE23()">ABSTRACT</button>
+    <div id="aEMSE23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+    <pre>@article{giordano2024adoption,
+        title={On the adoption and effects of source code reuse on defect proneness and maintenance effort},
+        author={Giordano, Giammaria and Festa, Gerardo and Catolino, Gemma and Palomba, Fabio and Ferrucci, Filomena and Gravino, Carmine},
+        journal={Empirical Software Engineering},
+        volume={29},
+        number={1},
+        pages={20},
+        year={2024},
+        publisher={Springer}
+      }         
+    </pre>
+    </div>
+    <div id="bEMSE23" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+    <pre>Abstract Software reusability mechanisms, like inheritance and delegation in Object-Oriented programming, are widely recognized as key instruments of software design that reduce the risks of source code being affected by defects, other than to reduce the effort required to maintain and evolve source code. Previous work has traditionally employed source code reuse metrics for prediction purposes, e.g., in the context of defect prediction. However, our research identifies two noticeable limitations of the current literature. First, still little is known about the extent to which developers actually employ code reuse mechanisms over time. Second, it is still unclear how these mechanisms may contribute to explaining defect-proneness and maintenance effort during software evolution. We aim at bridging this gap of knowledge, as an improved understanding of these aspects might provide insights into the actual support provided by these mechanisms, e.g., by suggesting whether and how to use them for prediction purposes. We propose an exploratory study, conducted on 12 Java projects—over 44,900 commits—of the Defects4J dataset, aiming at (1) assessing how developers use inheritance and delegation during software evolution; and (2) statistically analyzing the impact of inheritance and delegation on fault proneness and maintenance effort. Our results let emerge various usage patterns that describe the way inheritance and delegation vary over time. In addition, we find out that inheritance and delegation are statistically significant factors that influence both source code defect-proneness and maintenance effort.
+    </pre>
+    </div>
+    <script>
+    function toggleBibtexEMSE23(parameter) {
+        var x= document.getElementById('aEMSE23');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+    function toggleAbstractEMSE23(parameter) {
+        var x= document.getElementById('bEMSE23');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+    </script>
+</li>
+
+
+<!-- SoftwareX-->
+<li><div class="text-justify"><span id="fsoftwareX">Amato, Francesco &amp; Cicalese, Matteo &amp; Contrasto, Luca &amp; Cubicciotti, Giacomo &amp; D’Ambola, Gerardo &amp; La Marca, Antonio &amp; Pagano, Giuseppe &amp; Tomeo, Fiorentino &amp; Robertazzi, Gennaro Alessio &amp; Vassallo, Gabriele &amp; Giordano Giammaria &amp; others<br>  <i>QuantuMoonLight: A Low-Code Platform to Experiment with Quantum Machine Learning</i><br>SoftwareX</span></div>
+    <a href="../papers/J2.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+    <!--<a href="http://doi.org/10.1103/PhysRev.56.340" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>-->
+    <button class="btn btn-danger btm-sm" onclick="toggleBibtexsoftwareX()">BIB</button>
+    <button class="btn btn-warning btm-sm" onclick="toggleAbstractsoftwareX()">ABSTRACT</button>
+    <div id="asoftwareX" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+    <pre>@article{amato2023quantumoonlight,
+        title={QuantuMoonLight: A low-code platform to experiment with quantum machine learning},
+        author={Amato, Francesco and Cicalese, Matteo and Contrasto, Luca and Cubicciotti, Giacomo and D’Ambola, Gerardo and La Marca, Antonio and Pagano, Giuseppe and Tomeo, Fiorentino and Robertazzi, Gennaro Alessio and Vassallo, Gabriele and others},
+        journal={SoftwareX},
+        volume={22},
+        pages={101399},
+        year={2023},
+        publisher={Elsevier}
+      }      
+    </pre>
+    </div>
+    <div id="bsoftwareX" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+    <pre>Nowadays, machine learning is being used to address multiple problems in various research fields, with software engineering researchers being among the most active users of machine learning mechanisms. Recent advances revolve around the use of quantum machine learning, which promises to revolutionize program computation and boost software systems’ problem-solving capabilities. However, using quantum computing technologies is not trivial and requires interdisciplinary skills and expertise. For such a reason, we propose QuantuMoonLight, a community-based low-code platform that allows researchers and practitioners to configure and experiment with quantum machine learning pipelines, compare them with classic machine learning algorithms, and share lessons learned and experience reports. We showcase the architecture and main features of QuantuMoonLight, other than dis- cussing its envisioned impact on research and practice.
+    </pre>
+    </div>
+    <script>
+    function toggleBibtexsoftwareX(parameter) {
+        var x= document.getElementById('asoftwareX');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+    function toggleAbstractsoftwareX(parameter) {
+        var x= document.getElementById('bsoftwareX');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+    </script>
+</li>
+
+
+
+<!--   jss-->
+<li><div class="text-justify"><span id="fgiordanoArtificial">G. Giordano &amp; F. Palomba  &amp; F. Ferrucci<br>  <i>On the Use of Artificial Intelligence to Deal with Privacy in IoT Systems: A Systematic Literature Review</i><br>Journal of Systems and Software</span></div>
+    <a href="../papers/J1.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+    <!--<a href="http://doi.org/10.1103/PhysRev.56.340" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>-->
     <button class="btn btn-danger btm-sm" onclick="toggleBibtexgiordanoArtificial()">BIB</button>
-    
-    
-    
     <button class="btn btn-warning btm-sm" onclick="toggleAbstractgiordanoArtificial()">ABSTRACT</button>
-    
-    
-    
     <div id="agiordanoArtificial" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
     <pre>@article{giordano2022use,
         title={On the use of artificial intelligence to deal with privacy in IoT systems: A systematic literature review},
@@ -288,15 +261,11 @@ function toggleAbstractfeynman1939forces(parameter) {
         year={2022},
         publisher={Elsevier}
       }
-      
     </pre>
     </div>
-    
-    
     <div id="bgiordanoArtificial" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
     <pre>The Internet of Things (IoT) refers to a network of Internet-enabled devices that can make different operations, like sensing, communicating, and reacting to changes arising in the surrounding environment. Nowadays, the number of IoT devices is already higher than the world population. These devices operate by exchanging data between them, sometimes through an intermediate cloud infrastructure, and may be used to enable a wide variety of novel services that can potentially improve the quality of life of billions of people. Nonetheless, all that glitters is not gold: the increasing adoption of IoT comes with several privacy concerns due to the lack or loss of control over the sensitive data exchanged by these devices. This represents a key challenge for software engineering researchers attempting to address those privacy concerns by proposing (semi-)automated solutions to identify sources of privacy leaks. In this respect, a notable trend is represented by the adoption of smart solutions, that is, the definition of techniques based on artificial intelligence (AI) algorithms. This paper proposes a systematic literature review of the research in smart detection of privacy concerns in IoT devices. Following well-established guidelines, we identify 152 primary studies that we analyze under three main perspectives: (1) What are the privacy concerns addressed with AI-enabled techniques; (2) What are the algorithms employed and how they have been configured/validated; and (3) Which are the domains targeted by these techniques. The key results of the study identified six main tasks targeted through the use of artificial intelligence, like Malware Detection or Network Analysis. Support Vector Machine is the technique most frequently used in literature, however in many cases researchers do not explicitly indicate the domain where to use artificial intelligence algorithms. We conclude the paper by distilling several lessons learned and implications for software engineering researchers.</pre>
     </div>
-    
     <script>
     function toggleBibtexgiordanoArtificial(parameter) {
         var x= document.getElementById('agiordanoArtificial');
@@ -314,12 +283,10 @@ function toggleAbstractfeynman1939forces(parameter) {
             x.style.display = 'none';
         }
     }
-    </script></li>
-
+    </script>
+</li>
 </ol>
-
 </div>
-
 
 <div class="jumbotron">
   <h3 id="refereed-conference-proceedings">International Conferences</h3>
@@ -344,29 +311,10 @@ pre{
 
 
 <div class="text-justify"><span id="GiordanoMensura">G. Giordano, &amp; G. Annunziata,  &amp; A. De Lucia,  &amp; F. Palomba <i>Understanding Developer Practices and Code Smells Diffusion in AI-Enabled Software: A Preliminary Study <br> Mensura 2023</i></span></div>
-
-<!-- You can use the below to make your name bold -->
-<!-- <span id="example_proceeding">Doe, J. (2040). Example title. <i>Example Book</i>.</span></div> -->
-
-
-
-
-
 <a href="../papers/C5.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
-
-
-
-
-
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexGiordanoMensura()">BIB</button>
-
-
-
 <button class="btn btn-warning btm-sm" onclick="toggleAbstractGiordanoMensura()">ABSTRACT</button>
 <a href="../slides/C5.pdf" target="_blank"><button class="btn btn-success btm-sm">Slides</button></a>
-
-
-
 <div id="aGiordanoMensura" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@article{giordano2021understanding,
     title={Understanding Developer Practices and Code Smells Diffusion in AI-Enabled Software: A Preliminary Study},
@@ -375,12 +323,9 @@ pre{
   }  
 </pre>
 </div>
-
-
 <div id="bGiordanoMensura" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>To deal with continuous change requests and the strict time-to-market, practitioners and big companies constantly update their software systems to meet users’ requirements. This practice force developers to release immature products, neglecting best practices to reduce delivery times. As a possible result, technical debt can arise, i.e., potential design issues that can negatively impact software maintenance and evolution and, in turn, increase both the time-to-market and costs. Code smells—sub-optimal design decisions identifiable by computing software metrics and providing a general overview of code quality are common symptoms of technical debt. While previous research focused on code smells primarily considering them in the context of Java, the growing popularity of Python, particularly for developing artificial intelligence (AI)-Enabled systems, calls for additional investigations. This preliminary analysis addresses this gap by exploring the diffusion of Python-specific code smells, and the activities performed by developers that induce the introduction of code smells in their systems. To perform our preliminary investigation, we selected 200 AI-Enabled systems available in the Niche dataset; We extracted 10,611 information on the releases using PyDriller, and PySmell to extract information about code smells. The results reveal several insights: 1) Code smells related to object-oriented principles are rarely detected in Python; 2) Complex List Comprehension is the most prevalent and the most long-alive smell; 3) The main activities that can induce code smells are evolutionary. This study fills a critical gap in the literature by providing empirical evidence on the evolution of code smells in Python-based AI-enabled systems.</pre>
 </div>
-
 <script>
 function toggleBibtexGiordanoMensura(parameter) {
     var x= document.getElementById('aGiordanoMensura');
@@ -401,50 +346,27 @@ function toggleAbstractGiordanoMensura(parameter) {
 </script>
 </li>
 <li><div class="text-justify"><span id="GiordanoSEAA2023">G. Giordano, &amp; G. Sellitto,  &amp; A. Sepe,  &amp; F. Palomba, &amp; F. Ferrucci <i>The Yin and Yang of Software Quality: On the Relationship between Design Patterns and Code Smells<br> Euromicro SEAA 2023 🏆Best Paper Award🏆</i></span></div>
-
-    <!-- You can use the below to make your name bold -->
-    <!-- <span id="example_proceeding">Doe, J. (2040). Example title. <i>Example Book</i>.</span></div> -->
-    
-    
-    
-    
-    
-    <a href="../papers/C4.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
-    
-    
-    
-    
-    
-    <button class="btn btn-danger btm-sm" onclick="toggleBibtexGiordanoSEAA2023()">BIB</button>
-    
-    
-    
-    <button class="btn btn-warning btm-sm" onclick="toggleAbstractGiordanoSEAA2023()">ABSTRACT</button>
-
-    <a href="../slides/C4.pdf" target="_blank"><button class="btn btn-success btm-sm">Slides</button></a>
-
-    
-    
-    <div id="aGiordanoSEAA2023" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-    <pre>@inproceedings{giordano2023yin,
+<a href="../papers/C4.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexGiordanoSEAA2023()">BIB</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractGiordanoSEAA2023()">ABSTRACT</button>
+<a href="../slides/C4.pdf" target="_blank"><button class="btn btn-success btm-sm">Slides</button></a>
+<div id="aGiordanoSEAA2023" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{giordano2023yin,
         title={The Yin and Yang of Software Quality: On the Relationship between Design Patterns and Code Smells},
         author={Giordano, Giammaria and Sellitto, Giulia and Sepe, Aurelio and Palomba, Fabio and Ferrucci, Filomena and others},
         booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)},
         pages={227--234},
         year={2023}
       } 
-    </pre>
-    </div>
-    
-    
-    <div id="bGiordanoSEAA2023" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-    <pre>Software reuse is considered the silver bullet of software engineering. It has been largely demonstrated that the proper implementation of design and reuse principles can substantially reduce the effort, time, and costs required to develop software systems. Design patterns are one of the most affirmed techniques for source code reuse. While previous work pointed out their benefits in terms of maintainability and understand- ability, some seem to raise the opposite concern, suggesting that they can negatively impact code quality from the developers’ perspectives. We recognize such discrepancy in the literature, and we aim to fill this gap by investigating whether and how design patterns are related to the emergence of issues compromising code understandability, namely the Complex Class, God Class, and Spaghetti Code smells, which have been also shown to increase the change- and fault-proneness of code. We perform an empirical evaluation on 15 JAVA projects evolving over 542 releases, and we find that, although design patterns are supposed to improve code quality without prejudice, they can be related to dangerous issues, as we observe the emergence of code smells in the classes participating in their implementation. From our findings, we distil a number of implications for developers and project managers to support them in dealing with design patterns.</pre>
-    </div>
-    
-    <script>
-    function toggleBibtexGiordanoSEAA2023(parameter) {
-        var x= document.getElementById('aGiordanoSEAA2023');
-        if (x.style.display === 'none') {
+</pre>
+</div>
+<div id="bGiordanoSEAA2023" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Software reuse is considered the silver bullet of software engineering. It has been largely demonstrated that the proper implementation of design and reuse principles can substantially reduce the effort, time, and costs required to develop software systems. Design patterns are one of the most affirmed techniques for source code reuse. While previous work pointed out their benefits in terms of maintainability and understand- ability, some seem to raise the opposite concern, suggesting that they can negatively impact code quality from the developers’ perspectives. We recognize such discrepancy in the literature, and we aim to fill this gap by investigating whether and how design patterns are related to the emergence of issues compromising code understandability, namely the Complex Class, God Class, and Spaghetti Code smells, which have been also shown to increase the change- and fault-proneness of code. We perform an empirical evaluation on 15 JAVA projects evolving over 542 releases, and we find that, although design patterns are supposed to improve code quality without prejudice, they can be related to dangerous issues, as we observe the emergence of code smells in the classes participating in their implementation. From our findings, we distil a number of implications for developers and project managers to support them in dealing with design patterns.</pre>
+</div>
+<script>
+function toggleBibtexGiordanoSEAA2023(parameter) {
+    var x= document.getElementById('aGiordanoSEAA2023');
+    if (x.style.display === 'none') {
             x.style.display = 'block';
         } else {
             x.style.display = 'none';
