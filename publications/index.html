@@ -115,6 +115,8 @@ pre{
     <pre>Context. The adoption of Machine Learning (ML)–enabled systems is steadily increasing. Nevertheless, there is a shortage of ML-specific quality assurance approaches, possibly because of the limited knowledge of how quality-related concerns emerge and evolve in ML-enabled systems. Objective. We aim to investigate the emergence and evolution of specific types of quality-related concerns known as ML-specific code smells, i.e., sub-optimal implementation solutions applied on ML pipelines that may significantly decrease both quality and maintainability of ML-enabled systems. More specifically, we present a plan to study ML-specific code smells by empirically analyzing (i) their prevalence in real ML-enabled systems, (ii) how they are introduced and removed, and (iii) their survivability. Method. We will conduct an exploratory study, mining a large dataset of ML-enabled systems and analyzing over 400k commits about 337 projects. We will track and inspect the introduction and evolution of ML smells through CodeSmile, a novel ML smell detector that we will build to enable our investigation and to detect ML-specific code smells.</pre>
     </div>
 
+    <a href="../slides/C6.pdf" target="_blank"><button class="btn btn-success btm-sm">Slides</button></a>
+
 <div id="afMSR06" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@unpublished{feynman06,
   author = {Feynman, R. P. and Cline, J. M.},
@@ -290,7 +292,7 @@ pre{
 
 <div class="jumbotron">
   <h3 id="refereed-conference-proceedings">International Conferences</h3>
-  <ol class="bibliography" reversed="reversed"><li><style>
+  <ol class="bibliography" reversed="reversed"><style>
 .btn{
     margin-bottom:5px;
     padding-top:0px;
@@ -308,9 +310,47 @@ pre{
     width:100%; overflow-x:auto;
 }
 </style>
+<!--SECUTE-->
+ <li><div class="text-justify"><span id="GiordanoSECUTE">D. La Gamba &amp; G. Iuliano &amp; G. Recupito &amp; G. Giordano, &amp; Filomena Ferrucci &amp; Dario Di Nucci &amp; F. Palomba <i>Toward a Search-Based Approach to Support the Design of Security Tests for Malicious Network Traffic <br> Workshop on Security Testing for Complex Software Systems (SECUTE) 2024</i></span></div>
+    <a href="../papers/C7.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+    <button class="btn btn-danger btm-sm" onclick="toggleBibtexGiordanoSECUTE()">BIB</button>
+    <button class="btn btn-warning btm-sm" onclick="toggleAbstractGiordanoSECUTE()">ABSTRACT</button>
+    <!--<a href="../slides/C7.pdf" target="_blank"><button class="btn btn-success btm-sm">Slides</button></a>-->
+    <div id="aGiordanoSECUTE" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+   <!-- <pre>@article{l2021understanding,
+        title={Toward a Search-Based Approach to Support the Design of Security Tests for Malicious Network Traffic },
+        author={Giordano, Giammaria and Annunziata, Giusy and De Lucia, Andrea and Palomba, Fabio},
+        year={2021} 
+      }  -->
+      not yet
+    </pre>
+    </div>
+    <div id="bGiordanoSECUTE" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+    <pre>IoT devices generate and exchange large amounts of data daily, creating significant security and privacy challenges. Security test- ing, particularly using Machine Learning (ML), helps identify and classify potential malicious network traffic. Previous research has shown how ML can aid in designing security tests for IoT attacks. This ongoing paper introduces a search-based approach using Ge- netic Algorithms (GAs) to evolve detection rules and detect in- trusion attacks. We build on existing GA methods for intrusion detection and compare them with leading ML models. We propose 17 detection rules and demonstrate that while GAs do not fully replace ML, they perform well with ample attack examples and en- hance the usability and implementation of deterministic test cases by security testers.</pre>
+    </div>
+    <script>
+    function toggleBibtexGiordanoSECUTE(parameter) {
+        var x= document.getElementById('aGiordanoSECUTE');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+    function toggleAbstractGiordanoSECUTE(parameter) {
+        var x= document.getElementById('bGiordanoSECUTE');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+    </script>
+    </li>
 
 
-<div class="text-justify"><span id="GiordanoMensura">G. Giordano, &amp; G. Annunziata,  &amp; A. De Lucia,  &amp; F. Palomba <i>Understanding Developer Practices and Code Smells Diffusion in AI-Enabled Software: A Preliminary Study <br> Mensura 2023</i></span></div>
+<!-- MENSURA-->
+<li><div class="text-justify"><span id="GiordanoMensura">G. Giordano, &amp; G. Annunziata,  &amp; A. De Lucia,  &amp; F. Palomba <i>Understanding Developer Practices and Code Smells Diffusion in AI-Enabled Software: A Preliminary Study <br> Mensura 2023</i></span></div>
 <a href="../papers/C5.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
 <button class="btn btn-danger btm-sm" onclick="toggleBibtexGiordanoMensura()">BIB</button>
 <button class="btn btn-warning btm-sm" onclick="toggleAbstractGiordanoMensura()">ABSTRACT</button>
