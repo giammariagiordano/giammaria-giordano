@@ -1,0 +1,82 @@
+{
+  "papers": [
+    {
+      "id": "MSR06",
+      "authors": "G. Recupito, G. Giordano, Filomena Ferrucci, Dario Di Nucci, Fabio Palomba",
+      "title": "When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems",
+      "journal": "Preprint - Mining Software Repositories (MSR)",
+      "pdf": "../papers/C6.pdf",
+      "slides": "../slides/C6.pdf",
+      "abstract": "Context. The adoption of Machine Learning (ML)–enabled systems is steadily increasing. Nevertheless, there is a shortage of ML-specific quality assurance approaches, possibly because of the limited knowledge of how quality-related concerns emerge and evolve in ML-enabled systems. Objective. We aim to investigate the emergence and evolution of specific types of quality-related concerns known as ML-specific code smells, i.e., sub-optimal implementation solutions applied on ML pipelines that may significantly decrease both quality and maintainability of ML-enabled systems. More specifically, we present a plan to study ML-specific code smells by empirically analyzing (i) their prevalence in real ML-enabled systems, (ii) how they are introduced and removed, and (iii) their survivability. Method. We will conduct an exploratory study, mining a large dataset of ML-enabled systems and analyzing over 400k commits about 337 projects. We will track and inspect the introduction and evolution of ML smells through CodeSmile, a novel ML smell detector that we will build to enable our investigation and to detect ML-specific code smells."
+    },
+    {
+      "id": "EMSE23",
+      "authors": "Giammaria Giordano, Gerardo Festa, Gemma Catolino, Fabio Palomba, Filomena Ferrucci, Carmine Gravino",
+      "title": "On the Adoption and Effects of Source Code Reuse on Defect Proneness and Maintenance Effort",
+      "journal": "Journal - Empirical Software Engineering (EMSE)",
+      "pdf": "../papers/J3.pdf",
+      "abstract": "Software reusability mechanisms, like inheritance and delegation in Object-Oriented programming, are widely recognized as key instruments of software design that reduce the risks of source code being affected by defects, other than to reduce the effort required to maintain and evolve source code. Previous work has traditionally employed source code reuse metrics for prediction purposes, e.g., in the context of defect prediction. However, our research identifies two noticeable limitations of the current literature. First, still little is known about the extent to which developers actually employ code reuse mechanisms over time. Second, it is still unclear how these mechanisms may contribute to explaining defect-proneness and maintenance effort during software evolution. We aim at bridging this gap of knowledge, as an improved understanding of these aspects might provide insights into the actual support provided by these mechanisms, e.g., by suggesting whether and how to use them for prediction purposes. We propose an exploratory study, conducted on 12 Java projects—over 44,900 commits—of the Defects4J dataset, aiming at (1) assessing how developers use inheritance and delegation during software evolution; and (2) statistically analyzing the impact of inheritance and delegation on fault proneness and maintenance effort. Our results let emerge various usage patterns that describe the way inheritance and delegation vary over time. In addition, we find out that inheritance and delegation are statistically significant factors that influence both source code defect-proneness and maintenance effort."
+    },
+    {
+      "id": "SoftwareX",
+      "authors": "Francesco Amato, Matteo Cicalese, Luca Contrasto, ... Giammaria Giordano, ...,Fabio Palomba",
+      "title": "QuantuMoonLight: A Low-Code Platform to Experiment with Quantum Machine Learning",
+      "journal": "Journal -  Software X",
+      "pdf": "../papers/J2.pdf",
+      "abstract": "Nowadays, machine learning is being used to address multiple problems in various research fields, with software engineering researchers being among the most active users of machine learning mechanisms. Recent advances re- volve around the use of quantum machine learning, which promises to revo- lutionize program computation and boost software systems’ problem-solving capabilities. However, using quantum computing technologies is not trivial and requires interdisciplinary skills and expertise. For such a reason, we propose QuantuMoonLight, a community-based low-code platform that allows researchers and practitioners to configure and experiment with quan- tum machine learning pipelines, compare them with classic machine learning algorithms, and share lessons learned and experience reports. We showcase the architecture and main features of QuantuMoonLight, other than dis- cussing its envisioned impact on research and practice."
+    },
+    {
+      "id": "JSS22",
+      "authors": "Giammaria Giordano, Filomena Ferrucci, Fabio Palomba",
+      "title": "On the use of artificial intelligence to deal with privacy in IoT systems: A systematic literature review",
+      "journal": "Journal - Journal of Systems and Software (JSS)",
+      "pdf": "../papers/J1.pdf",
+      "abstract": "The Internet of Things (IoT) refers to a network of Internet-enabled devices that can make different operations, like sensing, communicating, and reacting to changes arising in the surrounding environment. Nowadays, the number of IoT devices is already higher than the world population. These devices operate by exchanging data between them, sometimes through an intermediate cloud infrastructure, and may be used to enable a wide variety of novel services that can potentially improve the quality of life of billions of people. Nonetheless, all that glitters is not gold: the increasing adoption of IoT comes with several privacy concerns due to the lack or loss of control over the sensitive data exchanged by these devices. This represents a key challenge for software engineering researchers attempting to address those privacy concerns by proposing (semi-)automated solutions to identify sources of privacy leaks. In this respect, a notable trend is represented by the adoption of smart solutions, that is, the definition of techniques based on artificial intelligence (AI) algorithms. This paper proposes a systematic literature review of the research in smart detection of privacy concerns in IoT devices. Following well-established guidelines, we identify 152 primary studies that we analyze under three main perspectives: (1) What are the privacy concerns addressed with AI- enabled techniques; (2) What are the algorithms employed and how they have been configured/validated; and (3) Which are the domains targeted by these techniques. The key results of the study identified six main tasks targeted through the use of artificial intelligence, like Malware Detection or Network Analysis. Support Vector Machine is the technique most frequently used in literature, however in many cases researchers do not explicitly indicate the domain where to use artificial intelligence algorithms. We conclude the paper by distilling several lessons learned and implications for software engineering researchers.."
+    },
+    {
+      "id": "SANER22",
+      "authors": "Giammaria Giordano, Antonio Fasulo, Gemma Catolino, Fabio Palomba, Filomena Ferrucci, Carmine Gravino",
+      "title": "On the Evolution of Inheritance and Delegation Mechanisms and Their Impact on Code Quality",
+      "journal": "International Conference - IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+      "pdf": "../papers/C1.pdf",
+      "slides": "../slides/P1.pdf",
+      "abstract": "Source code reuse is considered one of the holy grails of modern software development. Indeed, it has been widely demonstrated that this activity decreases software development and maintenance costs while increasing its overall trustwor- thiness. The Object-Oriented (OO) paradigm provides differ- ent internal mechanisms to favor code reuse, i.e., specification inheritance, implementation inheritance, and delegation. While previous studies investigated how inheritance relations impact source code quality, there is still a lack of understanding of their evolutionary aspects and, more particular, of how these mechanisms may impact source code quality over time. To bridge this gap of knowledge, this paper proposes an empirical investigation into the evolution of specification inheritance, im- plementation inheritance, and delegation and their impact on the variability of source code quality attributes. First, we assess how the implementation of those mechanisms varies over 15 releases of three software systems. Second, we devise a statistical approach with the aim of understanding how inheritance and delegation let source code quality—as indicated by the severity of code smells— vary in either positive or negative manner. The key results of the study indicate that inheritance and delegation evolve over time, but not in a statistically significant manner. At the same time, their evolution often leads code smell severity to be reduced, hence possibly contributing to improve code maintainability."
+    },
+    {
+      "id": "SEAA22",
+      "authors": "Giammaria Giordano, Antonio Fasulo, Gemma Catolino, Fabio Palomba, Filomena Ferrucci, Carmine Gravino",
+      "title": "A Preliminary Conceptualization and Analysis on Automated Static Analysis Tools for Vulnerability Detection in Android Apps",
+      "journal": "International Conference - Euromicro SEAA 2022",
+      "pdf": "../papers/C2.pdf",
+      "slides": "../slides/C2.pdf",
+      "abstract": "The availability of dependable mobile apps is a crucial need for over three billion people who use apps daily for any social and emergency connectivity. A key challenge for mobile developers concerns the detection of security-related issues. While a number of tools have been proposed over the years—especially for the ANDROID operating system—we point out a lack of empirical investigations on the actual support provided by these tools; these might guide developers in selecting the most appropriate instruments to improve their apps. In this paper, we propose a preliminary conceptualization of the vulnerabilities detected by three automated static analysis tools such as ANDROBUGS2, TRUESEEING, and INSIDER. We first derive a taxonomy of the issues detectable by the tools. Then, we run the tools against a dataset composed of 6,500 ANDROID apps to investigate their detection capabilities in terms of frequency of detection of vulnerabilities and complementarity among tools. Key findings of the study show that current tools identify similar concerns, but they use different naming conventions. Perhaps more importantly, the tools only partially cover the most common vulnerabilities classified by the Open Web Application Security Project (OWASP) Foundation."
+    },
+    {
+      "id": "SEAAE24",
+      "authors": "Giammaria Giordano, Giulia Sellitto, Aurelio Sepe, Fabio Palomba, Filomena Ferrucci",
+      "title": "🏆The Yin and Yang of Software Quality: On the Relationship between Design Patterns and Code Smells",
+      "journal": "International Conference - Euromicro SEAA 2022",
+      "pdf": "../papers/C4.pdf",
+      "slides": "../slides/C4.pdf",
+      "abstract": "Software reuse is considered the silver bullet of software engineering. It has been largely demonstrated that the proper implementation of design and reuse principles can substantially reduce the effort, time, and costs required to develop software systems. Design patterns are one of the most affirmed techniques for source code reuse. While previous work pointed out their benefits in terms of maintainability and understand- ability, some seem to raise the opposite concern, suggesting that they can negatively impact code quality from the developers’ perspectives. We recognize such discrepancy in the literature, and we aim to fill this gap by investigating whether and how design patterns are related to the emergence of issues compromising code understandability, namely the Complex Class, God Class, and Spaghetti Code smells, which have been also shown to increase the change- and fault-proneness of code. We perform an empirical evaluation on 15 JAVA projects evolving over 542 releases, and we find that, although design patterns are supposed to improve code quality without prejudice, they can be related to dangerous issues, as we observe the emergence of code smells in the classes participating in their implementation. From our findings, we distil a number of implications for developers and project managers to support them in dealing with design patterns."
+    },
+    {
+      "id": "MENSURA23",
+      "authors": "Giammaria Giordano, Giusy Annunziata, Andrea De Lucia, Fabio Palomba",
+      "title": "Understanding Developer Practices and Code Smells Diffusion in AI-Enabled Software: A Preliminary Study",
+      "journal": "International Conference -  IWSM Mensura",
+      "pdf": "../papers/C5.pdf",
+      "slides": "../slides/C5.pdf",
+      "abstract": "To deal with continuous change requests and the strict time-to-market, practitioners and big companies constantly update their software systems to meet users’ requirements. This practice force developers to release immature products, neglecting best practices to reduce delivery times. As a possible result, technical debt can arise, i.e., potential design issues that can negatively impact software maintenance and evolution and, in turn, increase both the time-to-market and costs. Code smells—sub-optimal design decisions identifiable by computing software metrics and providing a general overview of code quality —are common symptoms of technical debt. While previous research focused on code smells primarily considering them in the context of Java, the growing popularity of Python, particularly for developing artificial intelligence (AI)-Enabled systems, calls for additional investigations. This preliminary analysis addresses this gap by exploring the diffusion of Python-specific code smells, and the activities performed by developers that induce the introduction of code smells in their systems. To perform our preliminary investigation, we selected 200 AI-Enabled systems available in the Niche dataset; We extracted 10,611 information on the releases using PyDriller, and PySmell to extract information about code smells. The results reveal several insights: 1) Code smells related to object-oriented principles are rarely detected in Python; 2) Complex List Comprehension is the most prevalent and the most long-alive smell; 3) The main activities that can induce code smells are evolutionary. This study fills a critical gap in the literature by providing empirical evidence on the evolution of code smells in Python-based AI-enabled systems."
+    },
+    {
+      "id": "SECUTE24",
+      "authors": "Davide La Gamba, Gerardo Iuliano, Gilberto Recupito, Giammaria Giordano, Filomena Ferrucci, Dario Di Nucci, Fabio Palomba",
+      "title": "Toward a Search-Based Approach to Support the Design of Security Tests for Malicious Network Traffic",
+      "journal": "International Conference -  (Workshop) Security Testing for Complex Software Systems (SECUTE)",
+      "pdf": "../papers/C7.pdf",
+      "slides": "../slides/C7.pdf",
+      "abstract": "IoT devices generate and exchange large amounts of data daily, creating significant security and privacy challenges. Security test- ing, particularly using Machine Learning (ML), helps identify and classify potential malicious network traffic. Previous research has shown how ML can aid in designing security tests for IoT attacks. This ongoing paper introduces a search-based approach using Ge- netic Algorithms (GAs) to evolve detection rules and detect in- trusion attacks. We build on existing GA methods for intrusion detection and compare them with leading ML models. We propose 17 detection rules and demonstrate that while GAs do not fully replace ML, they perform well with ample attack examples and en- hance the usability and implementation of deterministic test cases by security testers."
+    }
+  ]
+}

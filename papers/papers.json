@@ -1,0 +1,21 @@
+{
+  "papers": [
+    {
+      "id": "MSR06",
+      "authors": "G. Recupito, G. Giordano, Filomena Ferrucci, Dario Di Nucci, Fabio Palomba",
+      "title": "When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems",
+      "journal": "Mining Software Repositories (MSR)",
+      "pdf": "../papers/C6.pdf",
+      "slides": "../slides/C6.pdf",
+      "abstract": "Context. The adoption of Machine Learning (ML)–enabled systems is steadily increasing. Nevertheless, there is a shortage of ML-specific quality assurance approaches, possibly because of the limited knowledge of how quality-related concerns emerge and evolve in ML-enabled systems. Objective. We aim to investigate the emergence and evolution of specific types of quality-related concerns known as ML-specific code smells, i.e., sub-optimal implementation solutions applied on ML pipelines that may significantly decrease both quality and maintainability of ML-enabled systems. More specifically, we present a plan to study ML-specific code smells by empirically analyzing (i) their prevalence in real ML-enabled systems, (ii) how they are introduced and removed, and (iii) their survivability. Method. We will conduct an exploratory study, mining a large dataset of ML-enabled systems and analyzing over 400k commits about 337 projects. We will track and inspect the introduction and evolution of ML smells through CodeSmile, a novel ML smell detector that we will build to enable our investigation and to detect ML-specific code smells."
+    },
+    {
+      "id": "EMSE23",
+      "authors": "Giammaria Giordano, Gerardo Festa, Gemma Catolino, Fabio Palomba, Filomena Ferrucci, Carmine Gravino",
+      "title": "On the Adoption and Effects of Source Code Reuse on Defect Proneness and Maintenance Effort",
+      "journal": "Empirical Software Engineering (EMSE)",
+      "pdf": "../papers/J3.pdf",
+      "abstract": "Software reusability mechanisms, like inheritance and delegation in Object-Oriented programming, are widely recognized as key instruments of software design that reduce the risks of source code being affected by defects, other than to reduce the effort required to maintain and evolve source code. Previous work has traditionally employed source code reuse metrics for prediction purposes, e.g., in the context of defect prediction. However, our research identifies two noticeable limitations of the current literature. First, still little is known about the extent to which developers actually employ code reuse mechanisms over time. Second, it is still unclear how these mechanisms may contribute to explaining defect-proneness and maintenance effort during software evolution. We aim at bridging this gap of knowledge, as an improved understanding of these aspects might provide insights into the actual support provided by these mechanisms, e.g., by suggesting whether and how to use them for prediction purposes. We propose an exploratory study, conducted on 12 Java projects—over 44,900 commits—of the Defects4J dataset, aiming at (1) assessing how developers use inheritance and delegation during software evolution; and (2) statistically analyzing the impact of inheritance and delegation on fault proneness and maintenance effort. Our results let emerge various usage patterns that describe the way inheritance and delegation vary over time. In addition, we find out that inheritance and delegation are statistically significant factors that influence both source code defect-proneness and maintenance effort."
+    }
+  ]
+}
