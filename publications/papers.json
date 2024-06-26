@@ -44,7 +44,7 @@
     },
     {
       "id": "SEAA22",
-      "authors": "Giammaria Giordano, Antonio Fasulo, Gemma Catolino, Fabio Palomba, Filomena Ferrucci, Carmine Gravino",
+      "authors": "Giammaria Giordano, Filomena Ferrucci, Fabio Palomba",
       "title": "A Preliminary Conceptualization and Analysis on Automated Static Analysis Tools for Vulnerability Detection in Android Apps",
       "journal": "International Conference - Euromicro SEAA 2022",
       "pdf": "../papers/C2.pdf",
