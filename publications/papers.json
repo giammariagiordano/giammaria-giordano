@@ -77,6 +77,24 @@
       "pdf": "../papers/C7.pdf",
       "slides": "../slides/C7.pdf",
       "abstract": "IoT devices generate and exchange large amounts of data daily, creating significant security and privacy challenges. Security test- ing, particularly using Machine Learning (ML), helps identify and classify potential malicious network traffic. Previous research has shown how ML can aid in designing security tests for IoT attacks. This ongoing paper introduces a search-based approach using Ge- netic Algorithms (GAs) to evolve detection rules and detect in- trusion attacks. We build on existing GA methods for intrusion detection and compare them with leading ML models. We propose 17 detection rules and demonstrate that while GAs do not fully replace ML, they perform well with ample attack examples and en- hance the usability and implementation of deterministic test cases by security testers."
+    }, 
+    {
+      "id": "JSS25",
+      "authors": "Vincenzo De Martino, Gilberto Recupito, Giammaria Giordano, Filomena Ferrucci, Dario Di Nucci, Fabio Palomba",
+      "title": "Into the ML-Universe: An Improved Classification and Characterization of Machine-Learning Projects",
+      "journal": "Journal - Journal of Systems and Software (JSS)",
+      "pdf": "../papers/J4.pdf",
+      "abstract": "The prominence of Machine Learning (ML) systems led to the rise of Software Engineering for Artificial Intelligence (SE4AI), which addresses the unique engineering challenges of these systems. Researchers in SE4AI engage with three primary types of ML projects: those that apply ML techniques, those that develop new ML methodologies, and those that provide support tools and libraries. Current classification schemas distinguish ML projects based on their purpose and engineering quality, yet they miss a fine-grained classification of their nature and purpose. In this paper, we propose a novel, tool-supported automated classification schema for ML projects, coined Machine learning Automated Rule-based Classification Kit (MARK), that builds on top of the work by Gonzalez et al. to refine the classification of applied ML projects into ‘ML-Model Consumers,’ ‘ML-Model Producers,’ and ‘ML-Model Producers & Consumers.’ We evaluated MARK through two empirical studies. The first assessed its classification accuracy across 4,603 ML projects from two datasets. The second analyzed repository metrics, such as community engagement, activity, and structure, to demonstrate MARK’s potential in identifying trends and characteristics unique to each project type. Our findings indicate high F1-scores for our classifier, particularly for ‘ML-Model Producer’ projects, though challenges remain for ‘ML-Model Consumer’ classification. Significant differences in repository metrics among the classified projects highlight the usefulness of MARK, offering insights for researchers studying the socio-technical dynamics of ML projects."
+    },
+    {
+      "id": "Fair2025",
+      "authors": "Alessandra Parziale, Gianmario Voria, Giammaria Giordano, Gemma Catolino, Gregorio Robles, Fabio Palomba",
+      "title": "🏆Contextual Fairness-Aware Practices in ML: A Cost-Effective Empirical Evaluation",
+      "journal": "International Conference - Euromicro SEAA 2022",
+      "pdf": "../papers/C4.pdf",
+      "slides": "../slides/C4.pdf",
+      "abstract": "As machine learning (ML) systems become central to critical decision-making, concerns over fairness and potential biases have increased. To address this, the software engineering (SE) field has introduced bias mitigation techniques aimed at enhancing fairness in ML models at various stages. Additionally, recent research suggests that standard ML engineering practices can also improve fairness; these practices, known as fairness-aware practices, have been cataloged across each stage of the ML development life cycle. However, fairness remains context- dependent, with different domains requiring customized solutions. Furthermore, existing specific bias mitigation methods may sometimes degrade model performance, raising ongoing discussions about the trade-offs involved. In this paper, we empirically investigate fairness-aware practices from two perspectives: contextual and cost-effectiveness. The contextual evaluation explores how these practices perform in various application domains, identifying areas where specific fairness adjustments are particularly effective. The cost-effectiveness evaluation considers the trade-off between fairness improvements and potential performance costs. Our findings provide insights into how context influences the effectiveness of fairness-aware practices. This research aims to guide SE practitioners in selecting practices that achieve fairness with minimal performance costs, supporting the development of ethical ML systems."
     }
   ]
 }
+
